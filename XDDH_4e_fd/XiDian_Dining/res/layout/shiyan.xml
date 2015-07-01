@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TableLayout android:id = "@+id/TableLayout01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:shrinkColumns="1"
+	    android:stretchColumns="2" >
+	    <Button android:id="@+id/shiyan_button1"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Button1"/>
+		<TableRow>
+    		<Button android:id="@+id/shiyan_button2"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button2"/>
+    		<Button android:id="@+id/shiyan_button3"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button3"/>
+    		<Button android:id="@+id/shiyan_button4"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button4"/>
+		</TableRow>
+	</TableLayout>   
+	<TableLayout android:id = "@+id/TableLayout02"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:collapseColumns="1" >
+		<Button android:id="@+id/shiyan_button5"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Button5"/>
+		<TableRow>
+    		<Button android:id="@+id/shiyan_button6"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button6"/>
+    		<Button android:id="@+id/shiyan_button7"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button7"/>
+    		<Button android:id="@+id/shiyan_button8"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button8"/>
+		</TableRow>
+	</TableLayout>
+	<TableLayout android:id = "@+id/TableLayout03"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="1,2" >
+		<Button android:id="@+id/shiyan_button9"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Button9"/>
+		<TableRow>
+    		<Button android:id="@+id/shiyan_button10"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button10"/>
+    		<Button android:id="@+id/shiyan_button11"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:text="Button11"/>
+		</TableRow>
+	</TableLayout> 
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color color1 = "color01" name="colora">#748751</color>
+    <color color2 = "color02" name="colorb">#ffff33</color>
+</resources>

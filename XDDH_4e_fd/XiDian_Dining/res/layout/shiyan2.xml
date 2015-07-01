@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:rowCount="3"
+    android:columnCount="5">
+        
+    <TextView
+        android:id="@+id/gridlayout_textview1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_columnSpan="5"
+        android:textSize="50sp"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="4px"
+        android:padding="5px"
+        android:layout_gravity="right"
+        android:background="#eee"
+        android:textColor="#000"
+        android:text="0"/>
+    <Button
+        android:id="@+id/gridlayout_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="5"
+        android:text="清除"/>
+	<Button
+        android:id="@+id/gridlayout_button2"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+	<Button
+        android:id="@+id/gridlayout_button3"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+	<Button
+        android:id="@+id/gridlayout_button4"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+	<Button
+        android:id="@+id/gridlayout_button5"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+	<Button
+        android:id="@+id/gridlayout_button6"
+        android:layout_height="wrap_content"
+        android:text="清除"/>
+	
+</GridLayout>

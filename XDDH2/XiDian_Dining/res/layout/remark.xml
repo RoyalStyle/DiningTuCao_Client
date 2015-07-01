@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remark_LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC" >
+
+    <ListView
+        android:id="@+id/remark_listView1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:divider="#b4a050"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"/>
+	<TableLayout
+        android:id="@+id/remark_TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/remark_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffb4a050"
+            android:text="返回" />
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/speak_GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCC"
+    android:rowCount="4"
+    android:columnCount="4" >
+
+    <TextView
+        android:id="@+id/speak_textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:textColor="#F7F7F7"
+        android:gravity="center"
+        android:background="#ffb4a050"
+        android:textSize="20sp"
+        android:text="吐槽一下" />
+
+    <TextView
+        android:id="@+id/speak_textView1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="餐厅名称" />
+
+    <Spinner
+        android:id="@+id/speak_spinner1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="3"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="150dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/speak_textView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="楼层" />
+
+    <Spinner
+        android:id="@+id/speak_spinner2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="3"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="150dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/speak_textView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="窗口" />
+
+    <Spinner
+        android:id="@+id/speak_spinner3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="3"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="150dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/speak_textView4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="菜名" />
+
+    <Spinner
+        android:id="@+id/speak_spinner4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="3"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="150dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:id="@+id/speak_textView5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="评分" />
+	<Spinner
+        android:id="@+id/speak_spinner5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="3"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="150dp"
+        android:layout_height="35dp" />
+   
+    <EditText
+        android:id="@+id/speak_editText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_columnSpan="4"
+        android:textSize="20sp"
+        android:textColor="#333366"
+        android:layout_width="match_parent"
+        android:layout_height = "70dp" />
+    <Button 
+        android:id="@+id/speak_Button1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="82dp"
+        android:layout_columnSpan="4"
+        android:background="#b4a050"
+        android:gravity="center"
+        android:text="发送"/>
+    <Button 
+        android:id="@+id/speak_Button2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="#b4a050"
+        android:layout_columnSpan="4"
+        android:gravity="center"
+        android:text="返回"/>
+    <TextView
+        android:id="@+id/speak_textView6"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_columnSpan="4"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="" />
+</GridLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/information_LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TableLayout android:id = "@+id/information_TableLayout01"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	    android:background="#FFFFCC">
+
+		<TextView
+		    android:id="@+id/information_textView0"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#ffb4a050"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:textColor="#F7F7F7"
+		    android:text="个人资料" />
+	    <TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView1"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginLeft="20dp"
+	            android:textColor="#cc0000"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="账号" />
+    		<TextView
+	            android:id="@+id/information_textView11"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"/>
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView2"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:textColor="#cc0099"
+	            android:gravity="center"
+	            android:text="密码" />
+
+	        <EditText
+	            android:id="@+id/information_editText2"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:inputType="textPassword"
+	            >
+
+	            <requestFocus />
+	        </EditText>
+    		
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView3"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:textColor="#cc0099"
+	            android:text="确认密码" />
+
+	        <EditText
+	            android:id="@+id/information_editText3"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:inputType="textPassword"
+	            />
+    		
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView4"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:textColor="#cc0099"
+	            android:text="昵称" />
+
+	        <EditText
+	            android:id="@+id/information_editText4"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            />
+    		
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView5"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="性别" />
+    		<RadioGroup
+       			android:id="@+id/information_radioGroup1"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_marginLeft="20dp"
+        		android:contentDescription="性别"
+        		android:orientation="horizontal" >
+
+        		<RadioButton
+            		android:id="@+id/information_radioMale"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="男" >
+        		</RadioButton>
+
+        		<RadioButton
+           			android:id="@+id/information_radioFemale"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="女" >
+        		</RadioButton>
+        		<RadioButton
+           			android:id="@+id/information_radioNone"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="保密" >
+        		</RadioButton>
+    		</RadioGroup>
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView6"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="E-Mail" />
+
+	        <EditText
+	            android:id="@+id/information_editText6"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            />
+    		
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView7"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="年级" />
+    		<Spinner
+       			android:id="@+id/information_spinner1"
+        		android:layout_width="160dp"
+        		android:layout_height="35dp"
+        		android:layout_marginLeft="20dp"
+        		android:textColor="#cc0099" />
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView8"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="电话" />
+
+	        <EditText
+	            android:id="@+id/information_editText8"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:inputType="phone"
+	            />
+    		
+		</TableRow>
+		<TableRow>
+
+	        <TextView
+	            android:id="@+id/information_textView9"
+	            android:layout_width="100dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+	            android:gravity="center"
+	            android:text="生日" />
+    		<Button
+                android:id="@+id/information_date_button"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#00b4a050"
+                android:text="日期" />
+		</TableRow>
+		<Button
+		    android:id="@+id/information_button1"
+			android:layout_width="match_parent"
+			android:layout_marginTop="17dp"
+			android:layout_height="35dp"
+			android:background="#b4a050"
+			android:text="保存" />
+		<Button
+		    android:id="@+id/information_button2"
+			android:layout_width="match_parent"
+			android:layout_height="35dp"
+			android:layout_marginTop="1dp"
+			android:background="#b4a050"
+			android:text="返回" />
+		<TextView
+		    android:id="@+id/information_textView10"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="5dp"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:text="" />
+	</TableLayout>
+</LinearLayout>

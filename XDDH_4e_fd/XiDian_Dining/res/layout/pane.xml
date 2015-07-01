@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:id="@+id/pane_LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android1:orientation="vertical" >
+    <TableLayout android:id = "@+id/pane_TableLayout01"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+        <TableRow
+            android:background="#436EEE">
+   	 		<Button
+        		android:id="@+id/pane_button3"
+        		android:layout_width="60dp"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentBottom="true"
+        		android:layout_toLeftOf="@+id/pane_button4"
+        		android:textColor="#F7F7F7"
+        		android:background="#00fffeff"
+        		android:text="吐槽" />
+    		<Button
+        		android:id="@+id/pane_button2"
+        		android:layout_width="100dp"
+        		android:layout_height="wrap_content"
+        		android:layout_alignParentBottom="true"
+        		android:background="#00fffeff"
+        		android:textColor="#F7F7F7"
+        		android:layout_toLeftOf="@+id/pane_button3"
+        		android:text="评论" />
+		    <Button
+     		   	android:id="@+id/pane_button1"
+     		   	android:textColor="#F7F7F7"
+        		android:layout_width="100dp"
+        		android:layout_height="wrap_content"
+        		android:background="#00fffeff"
+        		android:layout_alignParentBottom="true"
+        		android:layout_alignParentLeft="true"
+        		android:text="搜索" />
+		    <Button
+        		android:id="@+id/pane_button4"
+        		android:layout_width="100dp"
+        		android:layout_height="wrap_content"
+        		android:textColor="#F7F7F7"
+        		android:layout_alignParentBottom="true"
+        		android:background="#00fffeff"
+        		android:layout_alignParentRight="true"
+        		android:text="个人信息" />
+		</TableRow>
+		<TextView
+        	android:id="@+id/pane_textView0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:textColor="#fffeff"
+        	android:background="#86B9E0"
+        	android:gravity="center"
+        	android:text="本周推荐" />
+    </TableLayout>
+	<ListView
+        android:id="@+id/pane_listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#fffeff"
+        android:background="#86B9E0"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"/>
+</LinearLayout>
