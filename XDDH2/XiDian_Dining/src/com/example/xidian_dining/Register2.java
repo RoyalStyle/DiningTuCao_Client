@@ -39,17 +39,18 @@ public class Register2 extends Activity{
         	        	//			Connection.heartBeaten.interrupt();				//关闭心跳线程
         	        				Connection.pan = false;
         	        				Connection.listenThread.interrupt();
-        							Connection.br.close();
-        							Connection.writer.close();
+        							Connection.writer.write("logout\n");		//通信协议[client发server收]
+        							Connection.writer.flush();
+        				//			Connection.br.close();
+        				//			Connection.writer.close();
         							Connection.client.close();
-        							
+        							System.exit(0);
         						} catch (IOException e) {
         							System.out.println("Exit Error");
         							e.printStackTrace();
         						}
         	        		}
         	        	}.start();
-        	        	System.exit(0);
         		   }
         		  }).setNegativeButton("取消",null).show();
         }
@@ -117,8 +118,8 @@ public class Register2 extends Activity{
         	//				Connection.heartBeaten.interrupt();				//关闭心跳线程
         					Connection.pan = false;
         					Connection.listenThread.interrupt();
-        					Connection.br.close();
-        					Connection.writer.close();
+        	//				Connection.br.close();
+        	//				Connection.writer.close();
         					Connection.client.close();
             				resText.setText("与服务器连接超时，正在尝试重新连接");
     						break;
@@ -146,7 +147,7 @@ public class Register2 extends Activity{
     						}
     					}.start();
     					try{
-    						Thread.sleep(2000);			//重连需要时间
+    						Thread.sleep(1500);			//重连需要时间
     					}catch(Exception e){
     						System.out.println("sleep failed");
     						e.printStackTrace();

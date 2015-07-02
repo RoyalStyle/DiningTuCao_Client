@@ -89,7 +89,6 @@
 
 	<Button
 	    android:id="@+id/register_button3"
-	    android:layout_marginTop="150dp"
 	    android:layout_width="match_parent"
 	    android:background="#b4a050"
 	    android:layout_height="wrap_content"

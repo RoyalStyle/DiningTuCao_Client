@@ -225,15 +225,18 @@
 		<Button
 		    android:id="@+id/information_button1"
 			android:layout_width="match_parent"
-			android:layout_marginTop="17dp"
-			android:layout_height="35dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="50dp"
 			android:background="#b4a050"
 			android:text="保存" />
 		<Button
 		    android:id="@+id/information_button2"
 			android:layout_width="match_parent"
-			android:layout_height="35dp"
-			android:layout_marginTop="1dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="50dp"
 			android:background="#b4a050"
 			android:text="返回" />
 		<TextView

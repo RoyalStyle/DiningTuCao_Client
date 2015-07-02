@@ -34,15 +34,14 @@
     		    android:id="@+id/simple_button1"
     		    android:layout_width="wrap_content"
     		    android:layout_height="37dp"
-    		    android:layout_marginLeft="125dp"
+    		    android:layout_marginLeft="160dp"
     		    android:onClick="mybuttonlistener1"
-    		    android:background="#dcb48c"
+    		    android:gravity="right"
     		    android:text="赞 1" />
     		<Button android:id="@+id/simple_button2"
-    		    android:layout_marginLeft="2dp"
     			android:layout_width="wrap_content"
     			android:layout_height="37dp"
-    			android:background="#dcb48c"
+    			android:gravity="right"
     			android:onClick="mybuttonlistener2"
     			android:text="踩 2"/>
 		</TableRow>

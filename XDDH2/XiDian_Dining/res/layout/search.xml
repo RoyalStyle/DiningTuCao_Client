@@ -97,7 +97,7 @@
 	<ListView
         android:id="@+id/search_listView1"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
+        android:layout_height="294dp"
         android:divider="#f00"
         android:dividerHeight="2px"
         android:headerDividersEnabled="false"/>

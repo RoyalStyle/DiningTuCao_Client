@@ -2,7 +2,6 @@ package com.example.xidian_dining;
 /*
  * 注册活动，显示前几项注册信息，如果没有错误会进行下一个注册活动，完成剩下的注册信息
  */
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -10,11 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
@@ -37,33 +33,6 @@ public class Register extends Activity{
 	private String regName = "";
 	private String regSex = "男";
 	private String regGrade = "";
-	public boolean onKeyDown(int keyCode, KeyEvent event)
-    {
-        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0){
-        	new AlertDialog.Builder(this).setTitle("确认退出？").setPositiveButton("确定", new DialogInterface.OnClickListener() {
-        		   public void onClick(DialogInterface dialog, int which){
-        			   new Thread(){
-        	        		public void run(){		
-        	        			try {
-        	        	//			Connection.pan2 = false;						//心跳线程终止循环
-        	        	//			Connection.heartBeaten.interrupt();				//关闭心跳线程
-        	        				Connection.pan = false;
-        	        				Connection.listenThread.interrupt();
-        							Connection.br.close();
-        							Connection.writer.close();
-        							Connection.client.close();
-        						} catch (IOException e) {
-        							System.out.println("Exit Error");
-        							e.printStackTrace();
-        						}
-        	        		}
-        	        	}.start();
-        	        	System.exit(0);
-        		   }
-        		  }).setNegativeButton("取消",null).show();
-        }
-        return true;
-    }
 	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);

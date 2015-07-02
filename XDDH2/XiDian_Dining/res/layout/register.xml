@@ -23,7 +23,7 @@
             <TextView
                 android:id="@+id/register_textView1"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
                 android:layout_width="100dp"
@@ -33,7 +33,7 @@
             <EditText
                 android:id="@+id/register_editText1"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
         		android:textSize="20sp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             <TextView
                 android:id="@+id/register_textView2"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
         		android:textColor="#cc0099"
@@ -64,7 +64,7 @@
             <EditText
                 android:id="@+id/register_editText2"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
         		android:textSize="20sp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             <TextView
                 android:id="@+id/register_textView3"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
         		android:textColor="#cc0099"
@@ -94,7 +94,7 @@
             <EditText
                 android:id="@+id/register_editText3"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
         		android:textSize="20sp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
             <TextView
                 android:id="@+id/register_textView4"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
         		android:textColor="#cc0099"
@@ -124,7 +124,7 @@
             <EditText
                 android:id="@+id/register_editText4"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
         		android:textSize="20sp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
@@ -143,7 +143,7 @@
             <TextView
                 android:id="@+id/register_textView5"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
                 android:layout_width="100dp"
@@ -160,7 +160,7 @@
             		android:id="@+id/register_radioMale"
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
-                	android:layout_marginTop="10dp"
+                	android:layout_marginTop="20dp"
             		android:checked="true"
             		android:textSize="20sp"
             		android:text="男" >
@@ -170,7 +170,7 @@
            			android:id="@+id/register_radioFemale"
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
-                	android:layout_marginTop="10dp"
+                	android:layout_marginTop="20dp"
             		android:textSize="20sp"
             		android:text="女" >
         		</RadioButton>
@@ -178,7 +178,7 @@
            			android:id="@+id/register_radioNone"
             		android:layout_width="wrap_content"
             		android:layout_height="wrap_content"
-                	android:layout_marginTop="10dp"
+                	android:layout_marginTop="20dp"
             		android:textSize="20sp"
             		android:text="None" >
             	</RadioButton>
@@ -188,7 +188,7 @@
             <TextView
                 android:id="@+id/register_textView6"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
         		android:textSize="20sp"
                 android:layout_width="100dp"
@@ -198,7 +198,7 @@
             <Spinner
                 android:id="@+id/register_spinner1"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="150dp"
                 android:layout_height="35dp" />
             
@@ -216,7 +216,6 @@
 
 	<Button
 	    android:id="@+id/register_button1"
-	    android:layout_marginTop="40dp"
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:background="#b4a050"

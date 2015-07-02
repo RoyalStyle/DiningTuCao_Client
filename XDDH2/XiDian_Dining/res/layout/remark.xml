@@ -9,7 +9,7 @@
     <ListView
         android:id="@+id/remark_listView1"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="520dp"
         android:divider="#b4a050"
         android:dividerHeight="2px"
         android:headerDividersEnabled="false"/>
